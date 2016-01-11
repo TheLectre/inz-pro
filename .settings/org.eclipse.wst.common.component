@@ -2,7 +2,14 @@
     <wb-module deploy-name="inz-project">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/private"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/css"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/javascript"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF/pages"/>
         <property name="java-output-path" value="/inz-project/build/classes"/>
-        <property name="context-root" value="insurance-mvc-app"/>
+        <property name="context-root" value="praca-inzynierska"/>
     </wb-module>
 </project-modules>
